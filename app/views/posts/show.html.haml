@@ -1,6 +1,7 @@
 %h1=  @post.title
 %p= @post.link
 %p= simple_format(@post.description)
+%p= @post.user.name
 %p.date= @post.created_at.strftime('%B %e at %l:%M %p')
 
 = link_to "Home", root_path
