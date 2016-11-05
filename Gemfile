@@ -7,6 +7,7 @@ gem 'simple_form'
 gem 'devise'
 gem "paperclip", "~> 5.0.0"
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'acts_as_votable', '~> 0.10.0'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
