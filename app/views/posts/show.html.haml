@@ -1,0 +1,8 @@
+%h1=  @post.title
+%p= @post.link
+%p= simple_format(@post.description)
+%p.date= @post.created_at.strftime('%B %e at %l:%M %p')
+
+= link_to "Home", root_path
+= link_to "Edit", edit_post_path
+= link_to "Destroy", post_path(@post), :method => 'delete', :data => {confirm: "Are You Sure"}
